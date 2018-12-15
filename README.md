@@ -36,12 +36,12 @@ https://pro-bravia.sony.net/develop/integrate/rest-api/spec/getting-started/
 - [ ] getWolMode
 - [ ] requestReboot
 - [ ] setActiveApp
-- [x] [setAudioMute](blob/master/examples/setAudioMute.js)
-- [x] [setAudioVolume](blob/master/examples/setAudioVolume.js)
+- [x] [setAudioMute](examples/setAudioMute.js)
+- [x] [setAudioVolume](examples/setAudioVolume.js)
 - [ ] setLEDIndicatorStatus
 - [ ] setPlayContent
 - [ ] setPowerSavingMode
-- [x] [setPowerStatus](blob/master/examples/setPowerStatus.js)
+- [x] [setPowerStatus](examples/setPowerStatus.js)
 - [ ] setSceneSetting
 - [ ] setSoundSettings
 - [ ] setSpeakerSettings
