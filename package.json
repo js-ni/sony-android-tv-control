@@ -1,6 +1,6 @@
 {
   "name": "@js-ni/sony-android-tv-control",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sony Android TV Control",
   "main": "index.js",
   "repository": "https://github.com/js-ni/sony-android-tv-control.git",

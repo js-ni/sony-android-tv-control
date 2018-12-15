@@ -1,6 +1,6 @@
-const Command = require('..');
-const setPowerStatus = require('../commands/setPowerStatus');
+const { Control, setPowerStatus } = require('..');
+const config = require('./config');
 
-const command = new Command('192.168.1.11', '2801');
+const control = new Control(config.ip, config.psk);
 
-command.call(setPowerStatus(true));
+control.call(setPowerStatus(true));

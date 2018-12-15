@@ -1,6 +1,6 @@
-const Command = require('..');
-const setAudioMute = require('../commands/setAudioMute');
+const { Control, setAudioMute } = require('..');
+const config = require('./config');
 
-const command = new Command('192.168.1.11', '2801');
+const control = new Control(config.ip, config.psk);
 
-command.call(setAudioMute(true));
+control.call(setAudioMute(true));

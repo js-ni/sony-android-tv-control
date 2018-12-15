@@ -1,6 +1,6 @@
-const Command = require('..');
-const setAudioVolume = require('../commands/setAudioVolume');
+const { Control, setAudioVolume } = require('..');
+const config = require('./config');
 
-const command = new Command('192.168.1.11', '2801');
+const control = new Control(config.ip, config.psk);
 
-command.call(setAudioVolume('10'));
+control.call(setAudioVolume('10'));

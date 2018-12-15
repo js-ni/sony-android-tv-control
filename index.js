@@ -1,4 +1,7 @@
 const request = require('request');
+const setAudioMute = require('./commands/setAudioMute.js');
+const setAudioVolume = require('./commands/setAudioVolume.js');
+const setPowerStatus = require('./commands/setPowerStatus.js');
 
 class Control {
   constructor(ip = '0.0.0.0', psk = '') {
@@ -45,4 +48,9 @@ class Control {
   }
 }
 
-module.exports = Control;
+module.exports = {
+  Control,
+  setAudioMute,
+  setAudioVolume,
+  setPowerStatus,
+};
